@@ -1,0 +1,309 @@
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi cantante fav</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+</style>
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>Mi cantante fav </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">FERXX</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="IMG/FEID BANNER.png" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white"></h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b></b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">INCRESAR</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>LAS BUENAS CANCIONES DE FEID</h3>
+          <h5>Su verdadera profecion es cantar
+              <span class="w3-opacity"></span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="IMG/FEID 1.webp" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong> feid es un cantante colombiano! </strong>Su primer contacto con la música la tuvo por insistencia de sus padres, debido a que tenía que acompañar a su hermana a los cursos de extensión musical en la Universidad de Antioquia ya que no podía quedarse solo en casa.9​ Tras la estadía en aquella universidad aprendió a tocar el clarinete para el cual tuvo muy buena proyección para manejarlo, tiempo después abandona el instrumento y decide adentrarse más en el canto, después forma parte del coro de dicha universidad y comenzó a cantar en fiestas universitarias, fiestas de cumpleaños y reuniones.10​
+
+            Se inició como compositor de canciones para artistas como Nicky Jam, Alberto Style, Magnate y Valentino, Reykon y J Balvin.5​ En 2015 debutó como cantante con su primer sencillo «Morena» que le dio reconocimiento en países como Ecuador, Perú, Chile y Colombia.11​12​ Después estreno los sencillos «Si supieras» y «La respuesta». En ese mismo año participó en la composición de la canción «Ginza» de J Balvin junto a los productores Alejandro Ramírez y René David Cano que llegó a ubicarse en el puesto número uno de la lista Hot Latin Songs de la revista Billboard y que fue certificada con diez discos platinos por parte de RIAA13​14​
+            
+            En el 2016 firmó un contrato con la discografía Universal Music.15​16​ Posteriormente estreno el sencillo «Que raro» con la colaboración de J Balvin, siendo este su primer sencillo bajo este sello discográfico, el sencillo alcanzó la posición 47 en el Hot Latin Songs.17​18​19​ </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+            <hr>
+              <div class="w3-col l2 m3">
+                <img src="IMG/naii12.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>FEID <span class="w3-opacity w3-medium">AGOS 19, 1992, 3:42 PM</span></h4>
+                <p> mi cantante favorito es feid </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>amores de feid mediante su profesion</h3>
+          <h5>king KAROL G, <span class="w3-opacity">jujuju</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="karolg-feid-romance.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>feid y karol G</strong> Un gran exito colombiano!</p>
+          <p>El mensaje del artista paisa también conocido como Ferxxo se dio en su cuenta de Instagram y como respuesta a una publicación que hizo Karol G en su perfil. La intérprete de “Mañana será bonito” publicó una foto junto a su colega del momento en el que lo invitó a bailar con ella sobre el escenario la canción “Friki” y “Tus gafitas”, la cual confirmó que estaba dedicada a Feid.
+
+
+            “Perreito parte 2!!”, escribió Karol G añadiendo una bandera de Colombia. Por su parte, Feid replicó la historia de la cantante paisa y aprovechó para enviarle un cariñoso mensaje a su colega, con el cual avivó una vez más los rumores de que entre los dos hay más que una amistad. “Ese chocorramito cuál es. Rompiste horrible ese estadio reina”, escribió el artista y añadió emoticones de una cara derritiéndose, una reina y una rosa.
+            
+            .</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>Replies  </b> <span class="w3-tag w3-white">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="IMG/karolg-feid-romance.jpg" style="width: 90px;;">
+       
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Heimdall<span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>LO MAS TOP DEL AÑO.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/MLR_Loki_adulto.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Rian castro <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>artista colombiano.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="img/MLR_Frey.webp" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Frey <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>es como si fuera su hermano</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>Fenrir</h4>
+          <p>Soy todo lo que colombia quiere</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Post mas gracioosos</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="IMG/image.webp" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Karol G</span>
+            <br>
+            <span>Es la nena que todos quieren jaja</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="IMG/Feid_image_1.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Feid</span>
+            <br>
+            <span>el rey de la musica del momento</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="IMG/feis_pailita.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Salo villadas</span>
+            <br>
+            <span>Por que nadie creia en mi antes!</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="IMG/niki2.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">niki jam</span>
+            <br>
+            <span>Bff de fexxx</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">medellin</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">compositor</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">reggeeaton</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">admirado</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">humilde</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">color verde</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">precioso</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">mor</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">buen flow</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Inspiration</h4>
+        </div>
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col s6">
+            <p><img src="IMG/feis_pailita.jpg" alt="Jeans" style="width:100%"></p>
+            <p><img src="IMG/Feid_image_1.jpg" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="IMG/salir-con-vida-cancion-feid-y-morat_40958081_20221028065917.png" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="IMG/nicky_jam_3.jpg" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+      <!--Inspiration-->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>follow me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Enter your e-mail below and get notified on the latest blog posts.</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block w3-red">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
